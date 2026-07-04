@@ -93,9 +93,9 @@ More than 4 weeks
 สามารถเขียนเป็น pseudocode, flowchart idea หรือขั้นตอนความคิดได้
 
 ```text
-Step 1:
-Step 2:
-Step 3:
+Step 1:อ่านโจทย์ที่ให้มา
+Step 2:นั่งปรึกษากับคู่ว่าจะเริ่มจากไหนก่อน
+Step 3:หาข้อมูลจากสไลด์ Prepro ที่คัดลอกไว้
 ```
 
 ---
@@ -114,7 +114,7 @@ Step 3:
 
 ห้ามคัดลอกคำอธิบายจากคนอื่น
 
-```text
+```เหมือนเพราะจากการวางเเผนเเละลงมือทำ ก็เป็นไปตามเเผนอาจจะมีติดขัดบ้างก็ถามพี่ TA
 
 ```
 
@@ -134,96 +134,96 @@ Step 3:
 
 ทำไมเลือก case นี้:
 
-```text
+```มีความเเตกต่างของตัวอักษร ทำใหห้ตรวจสอบง่าย
 
 ```
 
 Input:
 
-```text
+```Hello
 
 ```
 
 Expected output:
 
-```text
+```olleh
 
 ```
 
 Actual output:
 
-```text
+```olleh
 
 ```
 
 Result:
 
-```text
-Pass / Not Pass
+```Pass
+
 ```
 
 ### Test Case 2
 
 ทำไมเลือก case นี้:
 
-```text
+```มีความเเตกต่างของตัวอักษร ทำให้ตรวจสอบง่าย
 
 ```
 
 Input:
 
-```text
+```MOMMY
 
 ```
 
 Expected output:
 
-```text
+```ymmom
 
 ```
 
 Actual output:
 
-```text
+```ymmom
 
 ```
 
 Result:
 
-```text
-Pass / Not Pass
+```Pass 
+
 ```
 
 ### Test Case 3
 
 ทำไมเลือก case นี้:
 
-```text
+```มีความเเตกต่างของตัวอักษร ทำให้ตรวจสอบง่าย
 
 ```
 
 Input:
 
-```text
+```FUnNY
 
 ```
 
 Expected output:
 
-```text
+```ynnuf
 
 ```
 
 Actual output:
 
-```text
+```ynnuf
 
 ```
 
 Result:
 
-```text
-Pass / Not Pass
+```Pass
+
 ```
 
 ---
@@ -232,8 +232,8 @@ Pass / Not Pass
 
 ใช้ AI กับโจทย์นี้หรือไม่
 
-```text
-Yes / No
+```No
+
 ```
 
 ถ้าใช้ AI ต้องทำไฟล์นี้ด้วย:
@@ -250,7 +250,7 @@ ai_reflection.md
 
 ได้ถามเพื่อน TA ผู้สอน หรือบุคคลอื่นเพื่อขอความช่วยเหลือในโจทย์นี้หรือไม่
 
-```text
+```Yes
 Yes / No
 ```
 
@@ -275,25 +275,25 @@ Yes / No
 
 ใครช่วยคุณ
 
-```text
+```คู่ pair พี่ TA
 
 ```
 
 เขาช่วยอะไร
 
-```text
+```ช่วยเเก้ตรงโค้ดที่ต้องสลับตัวอักษร
 
 ```
 
 คุณยังทำอะไรด้วยตนเอง
 
-```text
+```พิมพ์ input output เเละจุดที่ต้องทำให้อักษรที่เเสดงผลออกมาเป็นพิมพ์เล็ก
 
 ```
 
 คุณคัดลอก code จากคนอื่นหรือไม่
 
-```text
+```NO!!!
 No
 ```
 
@@ -305,10 +305,10 @@ No
 
 | Statement | Yes/No |
 |---|---|
-| I wrote this submission in my own words. | |
-| I understand my final code. | |
-| I recorded the real OJ status. | |
-| I did not copy AI-generated text directly into this file. | |
-| I did not copy code from another person. | |
-| If I received human help, I disclosed it in this file. | |
-| I submitted the final code to the OJ by myself. | |
+| I wrote this submission in my own words. |Yes |
+| I understand my final code. |Yes |
+| I recorded the real OJ status. |Yes |
+| I did not copy AI-generated text directly into this file. |Yes |
+| I did not copy code from another person. |Yes |
+| If I received human help, I disclosed it in this file. |Yes |
+| I submitted the final code to the OJ by myself. |Yes |
