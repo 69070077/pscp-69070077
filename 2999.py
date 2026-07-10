@@ -2,7 +2,7 @@
 def main():
     """Frame"""
     text = input()
-    print(end='*')
+    print("*" * (len(text) + 2))
     print(f"*{text}*")
-
+    print("*" * (len(text) + 2))
 main()
