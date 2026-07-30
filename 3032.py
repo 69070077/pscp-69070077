@@ -9,7 +9,7 @@ def main():
         i += 1
     scoresort = str(scoretotal.sort())
     print(scoresort[0::-1])
-    lenscore = len(str(min(scoretotal)))
+    lenscore = len(str(scoretotal))
     print(scoretotal)
     print(lenscore)
 main()
