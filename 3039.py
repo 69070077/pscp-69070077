@@ -1,9 +1,10 @@
 """Lowest 4"""
 def main():
     """Lowest 4"""
+    n = int(input())
     i = 0
     num = []
-    while i < 4:
+    while i < n:
         num.append(int(input()))
         i += 1
     num.sort()
