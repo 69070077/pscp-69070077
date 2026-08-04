@@ -12,11 +12,11 @@ def main():
         if not year :
             total_bonus = bonus
             print(int(total_bonus))
-        elif year <= 5:
+        elif year < 5:
             bonus_percent = money * 0.06
             total_bonus = bonus + bonus_percent
             print(int(total_bonus))
-        elif 5 < year <= 10:
+        elif 5 <= year <= 10:
             bonus_percent = money * 0.08
             total_bonus = bonus + bonus_percent
             print(int(total_bonus))
@@ -26,11 +26,11 @@ def main():
             print(int(total_bonus))
     elif job_title == 'B':
         bonus += 1000
-        if year <= 5:
+        if year < 5:
             bonus_percent = money * 0.05
             total_bonus = bonus + bonus_percent
             print(int(total_bonus))
-        elif 5 < year <= 10:
+        elif 5 <= year <= 10:
             bonus_percent = money * 0.06
             total_bonus = bonus + bonus_percent
             print(int(total_bonus))
@@ -40,11 +40,11 @@ def main():
             print(int(total_bonus))
     elif job_title == 'G':
         bonus += 500
-        if year <= 5:
+        if year < 5:
             bonus_percent = money * 0.04
             total_bonus = bonus + bonus_percent
             print(int(total_bonus))
-        elif 5 < year <= 10:
+        elif 5 <= year <= 10:
             bonus_percent = money * 0.05
             total_bonus = bonus + bonus_percent
             print(int(total_bonus))
