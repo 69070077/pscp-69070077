@@ -9,10 +9,7 @@ def main():
     bonus = 0
     if job_title == 'M':
         bonus += 1500
-        if not year :
-            total_bonus = bonus
-            print(int(total_bonus))
-        elif year < 5:
+        if year < 5:
             bonus_percent = money * 0.06
             total_bonus = bonus + bonus_percent
             print(int(total_bonus))
