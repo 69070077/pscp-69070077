@@ -7,8 +7,8 @@ def main():
     run_need = int(input())
     pushup_cando = int(input())
     situp_cando = int(input())
-    squat_cando = int(input())
     run_cando = int(input())
+    squat_cando = int(input())
     day = []
 
     daypush = pushup_need // pushup_cando

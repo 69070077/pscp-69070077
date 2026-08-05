@@ -2,14 +2,14 @@
 def main():
     """RabbitScore"""
     rabbit = int(input())
-    scoretotal = []    
+    scoretotal = []
     i = 0
     while i < rabbit :
         scoretotal.append(int(input()))
         i += 1
-    scoresort = str(scoretotal.sort())
-    print(scoresort[0::-1])
-    lenscore = len(str(scoretotal))
-    print(scoretotal)
-    print(lenscore)
+
+    print(max(scoretotal))
+    maxscore = max(scoretotal)
+    scorecount = scoretotal.count(maxscore)
+    print(scorecount)
 main()
