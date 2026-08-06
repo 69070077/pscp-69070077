@@ -1,4 +1,5 @@
 """BirthDay"""
+from datetime import date
 def main():
     """BirthDay"""
     year_1 = int(input())
@@ -8,10 +9,15 @@ def main():
     month_2 = int(input())
     day_2 = int(input())
 
-    if year_1 < year_2 and month_1 < month_2 and day_1 < day_2:
-        print("1")
-    elif year_2 < year_1 and month_2 < month_1 and day_2 < day_1:
-        print("2")
-    elif day_1 - day_2 <= 7 or day_2 - day_1 <= 7:
+    who1 = date(year_1, month_1, day_1)
+    who2 = date(year_2, month_2, day_2)
+    whobirthbefore = abs((who1 - who2).days)
+
+    if whobirthbefore <= 7:
         print("0")
+    elif who1 < who2:
+        print("1")
+    elif who2 < who1:
+        print("2")
+
 main()
