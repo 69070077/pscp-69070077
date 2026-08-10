@@ -6,6 +6,6 @@ def main():
     result = ""
     for i in text:
         asciii = chr((ord(i) - 97 + num)% 26 + 97 )
-        ressult += asciii
+        result += asciii
     print(result)
 main()

@@ -1,6 +1,6 @@
 """Luknam"""
 def main():
     """Luknam"""
-    num = int(input())
+    num = int(input()) 
     print(f"{num:,}")
 main()
