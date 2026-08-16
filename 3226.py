@@ -1,7 +1,7 @@
 """inflation"""
 def main():
     """inflation"""
-    money = float(input())
+    money = int(input())
     year = int(input())
     inf = 0.0381
     for _ in range(year):
