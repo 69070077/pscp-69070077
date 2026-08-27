@@ -1,81 +1,32 @@
 """Ramen"""
 def main():
     """Ramen"""
-    size_type = input()
-    size_type.split()
-    size_ramen = size_type[0]
-    type_ramen = size_type[1]
-
-    topping = input()
-    toppings = topping.split(" ")
-    topping_s = str(toppings[0])
-    piece = int(toppings[1])
-
+    size_ramen, type_ramen = input().split()
+    topping = input().split()
+    topping_type = topping[0]
     price = 0
-    mhu = 15
-    egg = 10
-
+    piece = 0
+    if len(topping) > 1:
+        piece = int(topping[1])
     if size_ramen == "S":
         if type_ramen == "R":
             price = 60
-            if topping_s == "P":
-                price + (mhu * piece)
-                print(price)
-            elif topping_s == "E":
-                price + (egg * piece)
-                print(price)
-            elif topping_s == "N":
-                print(price)
         elif type_ramen == "T":
             price = 80
-            if topping_s == "P":
-                price + (mhu * piece)
-                print(price)
-            elif topping_s == "E":
-                price + (egg * piece)
-                print(price)
-            elif topping_s == "N":
-                print(price)
-    elif size_ramen == "M":
+    if size_ramen == "M":
         if type_ramen == "R":
             price = 80
-            if topping_s == "P":
-                price + (mhu * piece)
-                print(price)
-            elif topping_s == "E":
-                price + (egg * piece)
-                print(price)
-            elif topping_s == "N":
-                print(price)
         elif type_ramen == "T":
             price = 100
-            if topping_s == "P":
-                price + (mhu * piece)
-                print(price)
-            elif topping_s == "E":
-                price + (egg * piece)
-                print(price)
-            elif topping_s == "N":
-                print(price)
-    elif size_ramen == "L":
+    if size_ramen == "L":
         if type_ramen == "R":
             price = 100
-            if topping_s == "P":
-                price + (mhu * piece)
-                print(price)
-            elif topping_s == "E":
-                price + (egg * piece)
-                print(price)
-            elif topping_s == "N":
-                print(price)
         elif type_ramen == "T":
             price = 120
-            if topping_s == "P":
-                price + (mhu * piece)
-                print(price)
-            elif topping_s == "E":
-                price + (egg * piece)
-                print(price)
-            elif topping_s == "N":
-                print(price)
+
+    if topping_type == "P":
+        price += 15 * piece
+    elif topping_type == "E":
+        price += 10 * piece
+    print(price)
 main()
