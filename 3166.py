@@ -10,14 +10,12 @@ def main():
         if score < 50:
             ispass = False
     avgscore = total / num
+    print(f"{avgscore:.1f}")
     if ispass is False:
-        print(avgscore)
         print("FAIL")
     elif ispass is True:
-        if avgscore > 50.0:
-            print(avgscore)
+        if avgscore >= 60.0:
             print("PASS")
         else:
-            print(avgscore)
             print("FAIL")
 main()
