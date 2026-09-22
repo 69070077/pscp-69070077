@@ -24,7 +24,7 @@ def main():
 
     ft = units * 0.50
     vat = total * 0.07
-    finaltotal = total + ft + vat
+    finaltotal = total + ft + vat + 0.000001
     print(f"{finaltotal:.1f}")
 
 main()
