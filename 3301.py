@@ -1,9 +1,14 @@
-"""Optimization"""
+"""PutintheBox"""
 def main():
-    """Optimization"""
-    text = input().split()
-    w = int(text[0])
-    l = int(text[1])
-    m = int(text[2])
-    n = int(text[3])
-    
+    """PutintheBox"""
+    w, l, r, a = map(int, input().split())
+    box = []
+
+    for i in range(r, a + 1):
+        f = w % i
+        s = l % i
+        box.append(f * s)
+
+    print(min(box))
+
+main()
